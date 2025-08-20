@@ -8,7 +8,7 @@ This is a lightweight, blazing-fast, and slightly over-engineered web server bui
 
 - **Language**: C++ (because ASSEMBLY wasn't allowed)
 - **Features**: Handles HTTP requests, serves files, and occasionally surprises you with bugs.
-- **Goal**: To learn, have fun, and maybe also because it a mandatory project.
+- **Goal**: To learn, have fun, and maybe also because it is a mandatory project.
 
 ## Architecture Diagram
 
