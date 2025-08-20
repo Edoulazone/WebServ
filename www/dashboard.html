@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="/style/style.css">
+</head>
+<body>
+	<header>
+		<div class="flex_column header_dashboard">
+			<h1>Dashboard</h1>
+			<button id="toHome" onclick="window.location.href='/'">Go to the homepage</button>
+		</div>
+	</header>
+	<main class="main_dashboard">
+		<div class="flex_row div_main row_start">
+			<div class="flex_column">
+				<h2>Methods</h2>
+				<button class="bigBtn" id="methods" onclick="window.location.href='/methods'">Methods interface</button>
+			</div>
+			<div class="flex_column">
+				<h2>Applications</h2>
+				<div class="flex_column">
+					<button class="bigBtn" id="cgi1" onclick="window.location.href='/cgi-bin/apps'">CGI 1 - python</button>
+					<button class="bigBtn" id="cgi2" onclick="window.location.href='/cgi-bin/SW'">CGI 2 - shell</button>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
